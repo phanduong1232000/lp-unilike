@@ -2295,6 +2295,9 @@ nav.navbar.navbar-expand-lg.navbar-dark.py-lg-0.px-lg-5.wow.fadeIn {
   text-decoration: none;
   display: inline-block;
 }
+.btn-time-before{
+  cursor: pointer;
+}
 /* =============why=============== */
 .why {
   padding: 50px 0px;
@@ -2609,6 +2612,10 @@ footer .foot-one{
  border-bottom: 2px solid #d5d5d5;
  border-radius: unset;
 }
+.moretext {
+  display: none;
+}
+
 @media(max-width:600px){
   .main-login .form-regis .content-login{
     margin: 0px;

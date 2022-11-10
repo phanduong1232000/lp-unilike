@@ -159,6 +159,16 @@
         }
     });
 
+    $('.moreless-button').click(function() {
+        $('.moretext').slideToggle();
+        if ($('.moreless-button').text() == "Xem Thêm") {
+          $(this).text("Rút Gọn")
+        } else {
+          $(this).text("Xem Thêm ")
+        }
+      });
+    
+
 
 
 })(jQuery);
@@ -223,7 +233,6 @@ const content = [{
 ]
 
 // 
-
 
 // vong xoay
 const $ = document.querySelector.bind(document)
